@@ -1,0 +1,126 @@
+@import 'config';
+
+body {
+    font-family: $font-stack;
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+
+.theme {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 0px solid;
+    background-color: black;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+span{
+    font-size: $icon-size;
+}
+
+.day {
+    color: black;
+    display: none;
+}
+
+.night {
+    color: white;
+}
+
+section {
+    padding: 80px 8% 80px 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    width: 50%;
+}
+
+
+h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: 500; 
+}
+
+h4 {
+    font-weight: 600; 
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    &:hover{
+        color: $red-color;
+        // color: rgb(84, 84, 84);
+    }
+    &:active{
+        color: $red-color; 
+    }
+    &:visited{
+        color: $grey-color;
+    }
+}
+
+p {
+    line-height: 30px;
+}
+
+.contPart {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.text {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2 {
+    width: 280px;
+}
+
+.p {
+    width: 550px; 
+}
+
+.logo {
+    display: flex;
+}
+
+.copy {
+    color: #AFB5C0;
+}
+.partners {
+    width: 20%;
+}
+
+
+@import 'nav';
+@import 'btn';
+@import 'statistic';
+@import 'list';
+@import 'plans';
+@import 'sub';
+@import 'foot';
+@import 'slider';
+
+@import 'media';
+
+
+

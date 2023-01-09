@@ -1,0 +1,138 @@
+@media screen and (max-width: 600px) {
+    section {
+        padding: 40px 8% 40px 8%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    article {
+        width: 100%;
+        text-align: center;
+    }
+
+    .statistic {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .item {
+        width: 100%;
+    }
+
+    hr {
+        width: 80%;
+    }
+    
+    .illustrations {
+        width: 100%;
+    }
+
+    .contPlans {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .plan {
+        margin-top: 20px;
+    }
+
+    .p {
+        width: 100%;
+    }
+
+    #il1{
+        margin-top: 60px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    section {
+        align-items: center;
+    }
+    article {
+        width: 100%;
+        text-align: center;
+    }
+    .illustrations {
+        width: 100%;
+    }
+    .plan{
+        margin-top: 20px;
+    }
+    .contPlans {
+        flex-wrap: wrap;
+        // flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .sub {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    .illustrations {
+        width: 100%;
+    }
+    section {
+        align-items: center;
+    }
+    .sub {
+        width: 86%;
+    }
+    #secondNav {
+        width: 50%;
+    }
+    #thirdNav {
+        width: 40%;
+    }
+    .plan{
+        margin-top: 20px;
+    }
+    .contPlans {
+        flex-wrap: wrap;
+        // flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #secondNav {
+        display: none;
+    }
+
+    .sub {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .foot1 {
+        width: 100%;
+        order: 2;
+    }
+    
+    .foot2 {
+        width: 30%;
+        order: 1;
+    }
+    
+    .foot3 {
+        width: 30%;
+        order: 1;
+    }
+    
+    .foot4 {
+        width: 30%;
+        order: 1;
+    }
+}

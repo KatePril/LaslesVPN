@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8% 0px 8%;
+}
+
+.insideNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#secondNav {
+    width: 40%;
+}
